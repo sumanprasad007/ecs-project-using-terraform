@@ -1,3 +1,3 @@
 resource "aws_ecr_repository" "ecr_repo" {
-  name = "pearlthrough-ecr"
+  name = "ecs-project-node-app"
 }
