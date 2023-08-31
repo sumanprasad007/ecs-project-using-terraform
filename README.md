@@ -21,9 +21,10 @@ Follow these steps to set up the CICD pipeline for deploying your Node.js applic
 1. **Clone the Repository**:
 
    ```shell
-   git clone <repository-url>
-   cd <repository-folder>
-
+   git clone https://github.com/sumanprasad007/ecs-project-using-terraform.git
+   cd ecs-project-using-terraform
+    ```
+    
 2. **AWS Credentials**:
 
 Ensure that your AWS credentials are correctly configured either by setting up AWS CLI with aws configure or by using IAM roles if you're running this in an AWS environment.
