@@ -24,7 +24,7 @@ Follow these steps to set up the CICD pipeline for deploying your Node.js applic
    git clone https://github.com/sumanprasad007/ecs-project-using-terraform.git
    cd ecs-project-using-terraform
     ```
-    
+
 2. **AWS Credentials**:
 
 Ensure that your AWS credentials are correctly configured either by setting up AWS CLI with aws configure or by using IAM roles if you're running this in an AWS environment.
@@ -50,7 +50,7 @@ terraform apply
 
 6. **Setting up CICD**:
 
-Integrate this Terraform code with your CI/CD platform (e.g., Jenkins, CircleCI, GitHub Actions) to automate the deployment process. Ensure that your CI/CD platform can trigger Terraform deployments with the necessary environment variables and secrets securely.
+Integrate this Terraform code with your CI/CD platform using GitHub Actions to automate the deployment process. Ensure that your CI/CD platform can trigger Terraform deployments with the necessary environment variables and secrets securely. Add the access and secret key of AWS as secrets inside the Github repo secrets section to execute the pipeline efficiently.
 
 7. **Deploy Your Application**:
 
